@@ -17,3 +17,17 @@ asciidoctor:
     idseparator: '-'
     sectanchors: ''
     icons: font
+profiles:
+  development:
+    deploy: nil
+  production:
+    base_url: http://paulojeronimo.github.io/paulojeronimo.net
+    ctx_path: /paulojeronimo.net
+    asciidoctor:
+      :attributes:
+        base_url: http://paulojeronimo.github.io/paulojeronimo.net
+        ctx_path: /paulojeronimo.net
+        imagesdir: http://paulojeronimo.github.io/paulojeronimo.net/images
+    deploy:
+      host: github_pages
+      branch: gh-pages
