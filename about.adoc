@@ -1,0 +1,10 @@
+= About
+Paulo Jerônimo
+:page-layout: base
+:showtitle:
+
+{sitename}.
+
+This page is written in http://asciidoc.org[AsciiDoc].
+It's transformed by http://awestruct.org[Awestruct] and http://asciidoctor.org[Asciidoctor]
+into a webpage for this static website.

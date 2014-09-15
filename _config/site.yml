@@ -1,4 +1,19 @@
-name: Project Name
-title: Baked with Awestruct
-org: Organization
+name: Paulo Jerônimo's website
+title: Paulo Jerônimo - triathlon training, developing sofware, teaching ... repeat
+org: Paulo Jerônimo
+author: paulojeronimo
+author_url: https://github.com/paulojeronimo
 base_url: ''
+ctx_path: ''
+haml:
+  :ugly: true
+asciidoctor:
+  :safe: safe
+  :attributes:
+    sitename: Paulo Jerônimo's website
+    base_url: ''
+    ctx_path: ''
+    idprefix: ''
+    idseparator: '-'
+    sectanchors: ''
+    icons: font
